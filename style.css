@@ -1,0 +1,13 @@
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;           /* puts items side by side */
+  gap: 15px;               /* space between links */
+  justify-content: space-evenly
+}
+nav ul img {
+  width: 25px;
+  border: dashed blue 1px;
+}
+
