@@ -46,3 +46,15 @@ header a {
 header button:hover {
     background-color: rgb(200, 200, 200);
 }
+
+#product{
+    position: relative;
+    left: 40px;
+}
+
+footer{
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  background-color: rgb(104, 104, 240);
+}
