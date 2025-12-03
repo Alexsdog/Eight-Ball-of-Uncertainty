@@ -1,13 +1,48 @@
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;           /* puts items side by side */
-  gap: 15px;               /* space between links */
-  justify-content: space-evenly
-}
-nav ul img {
-  width: 25px;
-  border: dashed blue 1px;
+header {
+    height: 70px;
+    margin: 0;
+    background-color: rgb(174, 174, 174);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-bottom: 1px solid black;
 }
 
+header img {
+    height: 50px;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    height: 100%;
+}
+
+header button {
+    background-color: rgb(174, 174, 174);
+    border: none;
+    height: 100%;
+    padding: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header button:hover {
+    background-color: rgb(200, 200, 200);
+}
