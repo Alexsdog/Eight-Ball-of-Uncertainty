@@ -20,9 +20,7 @@ function shakeBall() {
     answerDiv.textContent = "Ask a question first!";
     return;
   }
-
   const randomIndex = Math.floor(Math.random() * answers.length);
   const randomAnswer = answers[randomIndex];
-
   answerDiv.textContent = randomAnswer;
 }
