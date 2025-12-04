@@ -5,10 +5,11 @@
 header {
     height: 70px;
     margin: 0;
-    background-color: #264A6F;
+    background-color: rgb(174, 174, 174);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
     border-bottom: 1px solid black;
 }
 
@@ -35,7 +36,7 @@ header li {
 }
 
 header button {
-    background-color: #264A6F;
+    background-color: rgb(174, 174, 174);
     border: none;
     height: 100%;
     padding: 30px;
@@ -43,21 +44,10 @@ header button {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 header button:hover {
-    background-color: #42566b;
+    background-color: rgb(200, 200, 200);
 }
 
-#product{
-    position: relative;
-    left: 40px;
-}
-
-footer{
-  position: fixed;
-  bottom: 10px;
-  width: 100%;
-  background-color: rgb(1, 96, 196);
-}
