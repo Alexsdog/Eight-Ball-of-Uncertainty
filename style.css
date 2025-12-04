@@ -5,11 +5,10 @@
 header {
     height: 70px;
     margin: 0;
-    background-color: rgb(174, 174, 174);
+    background-color: rgb(1, 96, 196);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
     border-bottom: 1px solid black;
 }
 
@@ -36,7 +35,7 @@ header li {
 }
 
 header button {
-    background-color: rgb(174, 174, 174);
+    background-color: rgb(1, 96, 196);
     border: none;
     height: 100%;
     padding: 30px;
@@ -44,10 +43,10 @@ header button {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header button:hover {
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(78, 130, 185);
 }
 
