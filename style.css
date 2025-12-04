@@ -57,3 +57,20 @@ footer{
   width: 100%;
   background-color: rgb(1, 96, 196);
 }
+button .shake {
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    cursor: pointer;
+}
+input {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 1rem; 
+    margin-top: 10px;
+}
+#answer {
+    max-width: 350px; 
+    max-height:300; 
+    display: block; 
+    border-radius: 50%;
+}
