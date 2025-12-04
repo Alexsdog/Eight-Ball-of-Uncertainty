@@ -16,6 +16,10 @@ img {
     border: 2px solid black;
 }
 
+header img {
+    border: none;
+}
+
 #img1 {
     grid-area: 1 / 1/ span 3 / span 4;
     max-width: 100%;
