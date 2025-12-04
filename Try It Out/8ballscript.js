@@ -8,13 +8,7 @@ const answers = [
 function shakeBall() {
   const question = document.getElementById("question").value.trim();
   const answerImage = document.getElementById("answerImage");
-
-  if (question === "") {
-    answerImage.style.display = "none";
-    alert("Ask a question first!");
-    return;
-  }
-
+  
   const randomIndex = Math.floor(Math.random() * answers.length);
   const imagePath = answers[randomIndex];
 
