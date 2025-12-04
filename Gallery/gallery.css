@@ -9,6 +9,15 @@
     border: 1px solid black;
     grid-template-rows: repeat(1fr, 11);
     aspect-ratio: 11/7;
+    grid-gap: 10px;
+}
+
+img {
+    border: 2px solid black;
+}
+
+header img {
+    border: none;
 }
 
 #img1 {
