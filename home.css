@@ -8,6 +8,11 @@ Img{
     left: 40px;
     
 }
+
+header img {
+  left: 0;
+}
+
 h2{
     text-align: center;
 }
@@ -50,7 +55,6 @@ footer{
   overflow-x: hidden;
   scroll-snap-type: mandatory;
   box-shadow: 0 1.5rem, 3 rem, -0.75 rem;
-   hsla:0,0%,0%,.025;
   border-radius: 0.5rem ;
 
 }
