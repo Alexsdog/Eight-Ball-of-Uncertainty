@@ -2,6 +2,7 @@
   background-color: rgb(115, 134, 154);
   margin: 30px 0px;
   padding: 30px 0px;
+  border-radius: 10%;
 }
 
 table img{
@@ -37,6 +38,7 @@ footer{
     width: 100%;
     padding-top: 15px;
     margin-top: 30px;
+   
 }
 
 .reviews {
@@ -48,10 +50,16 @@ footer{
   align-items: center;
   padding: 30px 0px;
   margin-bottom: 30px;
+  border-radius: 10%;
 }
 
 .reviews img {
   height:200px;
   width: auto;
   padding: 30px 0px;
+   border-radius: 100%;
+}
+
+.description{
+  color: rgb(0, 0, 0);
 }
