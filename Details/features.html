@@ -38,20 +38,15 @@
 </header>
 <main>
   <h1>Product Specs</h1>
-  <div class = "body">
-  <div class = "wrapper-wrapper">
-    <div class = "slider">
-      <p id = "slide-1"><strong>Width</strong><br>60mm Diameter</p>
-      <p id = "slide-2"><strong>Height</strong><br>58.34mm Tall</p>
-      <p id = "slide-3"><strong>Cube Specs</strong><br>All side are 19mm x 19mmx 19mm</p>
+  <section class="reviews">
+    <h2>Product Specs</h2>
+    <p id="spec">Click a button to view dimensions</p>
+    <div>
+      <button onclick='document.getElementById("spec").innerHTML = "58.34mm"'>Height</button>
+      <button onclick='document.getElementById("spec").innerHTML = "60mm"'>Width</button>
+      <button onclick='document.getElementById("spec").innerHTML = "19mm x 19mm x 19mm"'>Cube Dimensions</button>
     </div>
-  </div>
-</div>
-<div class = "slider-navigation">
-  <a href = "#slide-1">Width</a>
-  <a href = "#slide-2">Height</a>
-  <a href = "#slide-3">Cube Specs</a>
-</div>
+  </section>
 <h2>User Manuel</h2>
 <ol>
   <li>Shake eight ball for desired amount of time(anywhere from 3 - ∞ seconds)</li>
