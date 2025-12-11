@@ -3,8 +3,12 @@
   padding: 10px;
   margin: 10px;
   border-radius: 10%;
-  max-width: 800px;
   text-align: center;
   position: relative;
-
+  width: 60%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
 }
