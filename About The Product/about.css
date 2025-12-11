@@ -1,6 +1,10 @@
 .about{
-  background-color:rgb(67,134,205);
+  background-color:rgb(87, 168, 255);
   padding: 10px;
   margin: 10px;
   border-radius: 10%;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+
 }
