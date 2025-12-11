@@ -2,7 +2,13 @@
   background-color: rgb(87, 168, 255);
   margin: 20px;
   padding:10px;
-  border-radius: 5%
+  max-width: 1000px;
+  width: 80%;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
 }
 
 h1{
