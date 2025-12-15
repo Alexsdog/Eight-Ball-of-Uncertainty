@@ -12,3 +12,18 @@
   justify-self: center;
   flex-direction: column;
 }
+footer{
+  position: absolute;
+  bottom: 10px;
+  height: 40px;
+  background-color: rgb(28, 62, 98);
+  color:white;
+  font-size: 12px;
+  text-align: center;
+  width: 60%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding:10px 30px;
+}
