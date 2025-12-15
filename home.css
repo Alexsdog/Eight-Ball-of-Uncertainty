@@ -13,7 +13,8 @@
 
 .description img{
     position: relative;
-    height: 300px;
+    width: 50%;
+    height: 50%;
 }
 
 #innerdes {
