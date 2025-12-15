@@ -69,3 +69,17 @@ h2{
 .description{
   color: rgb(0, 0, 0);
 }
+
+@media only screen and (max-width: 768px) {
+  .description, .reviews, .footer {
+    width: 100%;
+  }
+
+  #innerdes {
+    flex-direction: column;
+  }
+
+  .description img {
+    width: 100%;
+  }
+}
