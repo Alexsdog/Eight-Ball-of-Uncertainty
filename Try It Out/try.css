@@ -1,3 +1,7 @@
+html {
+  text-align: center;
+}
+
 footer{
   position: relative;
   bottom: 10px;
@@ -12,4 +16,16 @@ footer{
   align-items: center;
   justify-self: center;
   padding:10px 30px;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+.shake {
+  margin-left: 10px;
+}
+
+main img {
+  width: 60%;
 }
