@@ -27,3 +27,7 @@ footer{
   justify-self: center;
   padding:10px 30px;
 }
+#img1 {
+  display: block;
+  margin: 0 auto;
+}
