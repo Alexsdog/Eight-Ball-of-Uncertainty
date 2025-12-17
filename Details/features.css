@@ -51,7 +51,7 @@ footer{
 
 #specs{
    width: 100%;
-  background-color: rgb(67, 134, 205);
+  background-color: rgb(87, 168, 255);
   display: flex;
   width: 60%;
   max-width: 1000px;
@@ -65,7 +65,7 @@ footer{
 }
 #manuel{
    width: 100%;
-  background-color: rgb(67, 134, 205);
+  background-color: rgb(87, 168, 255);
   display: flex;
   width: 60%;
   max-width: 1000px;
