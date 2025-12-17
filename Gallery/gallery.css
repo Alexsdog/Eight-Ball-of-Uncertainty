@@ -50,6 +50,10 @@ header img {
     max-width: 100%;
 }
 
+video {
+    width: 50%
+}
+
 footer{
   position: relative;
   bottom: 10px;
