@@ -70,6 +70,7 @@ h2{
   color: rgb(0, 0, 0);
 }
 
+<<<<<<< HEAD
 footer{
   position: relative;
   bottom: 10px;
@@ -84,4 +85,18 @@ footer{
   align-items: center;
   justify-self: center;
   padding:10px 30px;
+=======
+@media only screen and (max-width: 768px) {
+  .description, .reviews, .footer {
+    width: 100%;
+  }
+
+  #innerdes {
+    flex-direction: column;
+  }
+
+  .description img {
+    width: 100%;
+  }
+>>>>>>> ccde5cd031252a5faa9366ef642c173e3b9548d4
 }
