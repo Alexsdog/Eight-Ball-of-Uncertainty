@@ -33,3 +33,8 @@ footer{
   max-width: 100%;
   height: auto;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
