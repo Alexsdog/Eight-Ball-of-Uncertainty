@@ -30,7 +30,8 @@ footer{
 #img1 {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 25%;
+  max-height: 25%;
   height: auto;
 }
 .container {
